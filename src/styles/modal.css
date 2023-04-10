@@ -1,0 +1,20 @@
+.modal_post{
+    width: 100%;
+    height: max-content;
+    border-radius: var(--border-radius);
+    background-color: var(--whitefixed);
+    border: none;
+    
+}
+
+.btn__exit{
+    height: 40px;
+   width: 40px;
+   border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    left: auto;
+
+}
+

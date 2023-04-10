@@ -1,0 +1,78 @@
+.h3__section{
+
+    height: 24px;
+    color: var(--grey1);
+    font-size: var(--title-2);
+    font-weight: var(--title-2-weight);
+    line-height: var(--title-2-height);
+  
+
+}
+
+.container__cards{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    gap: 20px;
+
+    
+}
+
+
+
+.container__users{
+    width: max-content;
+    height: max-content;
+    
+}
+
+.followers__card-div{
+    display: flex;
+    width:max-content;
+    height: max-content;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+.followers__card-name{
+    font-size: var(--title-2);
+    font-weight:var(--title-2-weight);
+    line-height:var(--title-2-height);
+    color: var(--grey1);
+}
+
+
+.div__paragraph{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.followers__card-prof{
+    font-size: var(--text-2);
+    font-weight:var(--text-2-weight);
+    line-height:var(--text-2-height);
+    color: var(--grey2);
+}
+
+.followers__card-button{
+    width: 69px;
+    height: 28px;
+    border-radius: 2px;
+    padding: 0px 12px 0px 12px;
+    gap: 10px;
+    color: var(--grey1);
+
+}
+
+
+.btn__followers{
+    background-color: var(--brand-1);
+    width: 89px;
+    color: white;
+}

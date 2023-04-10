@@ -1,0 +1,99 @@
+.main{
+    padding: 57px 30px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    pad
+}
+
+.container__identificador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;  
+}
+
+.textArea__div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.textArea__name{
+    font-weight: var(--title-2-weight);
+    font-size: var(--title-2); 
+    line-height: var(--title-2-height);
+    color: var(--grey1);
+    
+}
+
+.textArea__prof{
+    font-weight: var(--text-2-weight);
+    font-size: var(--text-2); 
+    line-height: var(--text-2-height);
+    color: var(--grey2);
+    
+}
+
+.input_textArea-container{
+  
+    height: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 30px;
+    
+}
+    
+.input_textArea-container > input{
+    width: 100%;
+    height: 3.25rem;
+    border-radius: var(--border-radius);
+    border:2px solid var(--grey4);
+    padding: 16px;
+    background-color: var(--whitefixed);
+    margin-bottom: 30;
+   
+}
+
+.input_textArea-container > input::placeholder{
+    color: var(--grey3);
+    font-size:var(--text-1) ;
+    font-weight: var(--text-1-weight);
+    line-height: var(--text-1-height);
+}
+
+.description__post{
+    width: 99%;
+    height: 8.125rem;
+    border-radius: var(--border-radius);
+    border:2px solid var(--grey4);
+    background-color: var(--whitefixed);
+
+}
+
+.description__post::placeholder{
+    padding: 16px;
+    color: var(--grey3);
+    font-size:var(--text-1);
+    font-weight: var(--text-1-weight);
+    line-height: var(--text-1-height);
+    font-family:'Inter', sans-serif; 
+}
+
+.textArea__button-postar{
+    width: 69px;
+    height: 38px;
+    border-radius: var(--border-radius);
+    background-color: var(--grey4);
+    padding: 0 12px 0 12px;
+    border:2px solid var(--grey4);
+    color: var(--grey3);
+    font-size: var(--text-2);
+    font-weight:var(--text-2-weight);
+    line-height: var(--text-2-height);
+  
+}

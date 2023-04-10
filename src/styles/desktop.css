@@ -1,0 +1,50 @@
+@media (min-width:736px) {
+
+    .div__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aside__aside{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .container__aside{
+        width: 45%;
+    }
+
+    .container__cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+
+    }
+
+    .input_textArea-container{
+        width: 50%;
+    }
+
+    .container__users{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container__post{
+        margin-left: 100px;
+        width: 50%;
+    }
+
+
+    .modal_post{
+        width: 50%;
+    
+    }
+
+    .container__individual{
+        width: 100%;
+    }
+
+
+}

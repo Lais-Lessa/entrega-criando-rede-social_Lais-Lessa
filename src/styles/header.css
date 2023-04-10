@@ -1,0 +1,33 @@
+
+.header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: var(--grey1);
+ height: 76px;
+ width: 100%;
+ align-items: center;
+ padding: 0 20px;
+ position: fixed;
+ top: 0;
+ 
+
+}
+
+
+ .header__h2{
+    color: var(--whitefixed);
+    font-weight: var(--title-2-weight);
+    font-size: var(--title-2);
+    
+ }
+
+ .header__exit{
+    width: 1.625rem;
+    height: 1rem;
+    font-weight: var(--text-2-weight);
+    font-size: var(--text-2);
+    background-color: var(--grey1);
+    color: var(--whitefixed);
+
+ }

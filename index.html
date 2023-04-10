@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/styles/reset.css" />
+  <link rel="stylesheet" href="./src/styles/index.css" />
+  <link rel="stylesheet" href="./src/styles/header.css" />
+  <link rel="stylesheet" href="./src/styles/identificador.css" />
+  <link rel="stylesheet" href="./src/styles/cards.css" />
+  <link rel="stylesheet" href="./src/styles/posts.css" />
+  <link rel="stylesheet" href="./src/styles/modal.css" />
+  <link rel="stylesheet" href="./src/styles/desktop.css" />
 
-    <title>Criando rede social</title>
-  </head>
-  <body></body>
+
+  <!-- FONTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <title>Criando rede social</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <h2 class="header__h2"> TechPosters</h2>
+    <button class="header__exit"> Sair </button>
+  </header>
+
+
+  <dialog id="modal_post" class="modal_post">
+  </dialog>
+
+  
+  <main class="main">
+    
+    <div class="container__identificador">
+      <img id="textArea" src="./src/assets/img/Samuel.png" alt="">
+      <div class="textArea__div">
+        <p class="textArea__name"> Samuel Leão </p>
+        <p class="textArea__prof"> Front end Enginner </p>
+      </div>
+    </div>
+    <div class="div__wrapper">
+  
+      <form class="input_textArea-container">
+        <input type="text" placeholder="Digitar título do post">
+        <textarea name="description__post" class="description__post" cols="30" rows="10"
+          placeholder="Digitar descrição do post"></textarea>
+        <button class="textArea__button-postar"> Postar </button>
+      </form>
+  
+  
+      <section class="container__aside">
+        <aside class="aside__aside">
+          <h3 class="h3__section"> Sugestões para você seguir </h3>
+          <div class="container__cards">
+          </div>
+        </aside>
+        </section>
+    </div>
+
+
+    <section class="container__post">
+      <div class="post__h2">
+        <h2 class="post__div-h1"> Posts </h2>
+      </div>
+      <div class="post__container-main">
+      </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="./src/scripts/index.js"></script>
+</body>
+
 </html>
