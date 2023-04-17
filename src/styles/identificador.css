@@ -3,7 +3,7 @@
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-    pad
+   
 }
 
 .container__identificador{
@@ -38,24 +38,22 @@
 }
 
 .input_textArea-container{
-  
-    height: 18.75rem;
+    width: 350px;
+    height: 264px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
-    margin: 30px;
+    margin-bottom: 20px;
     
 }
     
 .input_textArea-container > input{
-    width: 100%;
-    height: 3.25rem;
+    width: 300px;
+    height: 52px;
     border-radius: var(--border-radius);
-    border:2px solid var(--grey4);
+    border:1px solid var(--grey4);
     padding: 16px;
     background-color: var(--whitefixed);
-    margin-bottom: 30;
    
 }
 
@@ -67,12 +65,12 @@
 }
 
 .description__post{
-    width: 99%;
-    height: 8.125rem;
+    width: 300px;
+    height: 150px;
     border-radius: var(--border-radius);
-    border:2px solid var(--grey4);
+    border:1px solid var(--grey4);
     background-color: var(--whitefixed);
-
+    padding: 0;
 }
 
 .description__post::placeholder{
@@ -95,5 +93,6 @@
     font-size: var(--text-2);
     font-weight:var(--text-2-weight);
     line-height: var(--text-2-height);
+    align-self: flex-end;
   
 }

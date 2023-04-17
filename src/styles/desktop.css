@@ -6,8 +6,7 @@
     }
 
     .aside__aside{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 250px;
     }
     .container__aside{
         width: 45%;
@@ -22,7 +21,9 @@
     }
 
     .input_textArea-container{
-        width: 50%;
+        width: 40%;
+        position: relative;
+        left: 80px;
     }
 
     .container__users{
@@ -38,13 +39,30 @@
 
 
     .modal_post{
-        width: 50%;
+        width: 600px;
+        height: max-content;
     
     }
 
     .container__individual{
-        width: 100%;
+        width: 500px;
+        height: max-content;
     }
 
+    .container__identificador{
+        position: relative;
+        left: 100px;
+        width: 30%;
 
+    }
+
+    .post__description{
+        width: 600px;
+        height: 252px;
+
+    }
+
+    .container__identificador-post{
+        margin-top: 20px;
+    }
 }
