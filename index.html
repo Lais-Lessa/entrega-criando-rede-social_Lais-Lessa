@@ -40,21 +40,23 @@
   
   <main class="main">
     
-    <div class="container__identificador">
-      <img id="textArea" src="./src/assets/img/Samuel.png" alt="">
-      <div class="textArea__div">
-        <p class="textArea__name"> Samuel Leão </p>
-        <p class="textArea__prof"> Front end Enginner </p>
-      </div>
-    </div>
     <div class="div__wrapper">
+      <div class="form__wrapper">
+        <div class="container__identificador">
+          <img id="textArea" src="./src/assets/img/Samuel.png" alt="">
+          <div class="textArea__div">
+            <p class="textArea__name"> Samuel Leão </p>
+            <p class="textArea__prof"> Front end Enginner </p>
+          </div>
+        </div>
+        <form class="input_textArea-container">
+          <input type="text" placeholder="Digitar título do post">
+          <textarea name="description__post" class="description__post" cols="30" rows="10"
+            placeholder="Digitar descrição do post"></textarea>
+          <button class="textArea__button-postar"> Postar </button>
+        </form>
+      </div>
   
-      <form class="input_textArea-container">
-        <input type="text" placeholder="Digitar título do post">
-        <textarea name="description__post" class="description__post" cols="30" rows="10"
-          placeholder="Digitar descrição do post"></textarea>
-        <button class="textArea__button-postar"> Postar </button>
-      </form>
   
   
       <section class="container__aside">

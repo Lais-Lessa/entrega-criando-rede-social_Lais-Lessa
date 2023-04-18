@@ -1,7 +1,7 @@
 .modal_post{
     width: 80%;
     height: max-content;
-    border-radius: var(--border-radius);
+    border-radius: 8px;
     background-color: var(--whitefixed);
     border: none;
     

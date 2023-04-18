@@ -1,15 +1,18 @@
 @media (min-width:736px) {
 
+    .main{
+        padding: 147px 100px;
+       
+    }
+    
     .div__wrapper{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
-    .aside__aside{
-        margin-left: 250px;
-    }
     .container__aside{
-        width: 45%;
+        width: 400px;
     }
 
     .container__cards{
@@ -21,9 +24,8 @@
     }
 
     .input_textArea-container{
-        width: 40%;
-        position: relative;
-        left: 80px;
+        width: 100%;
+        margin-top: 26px;
     }
 
     .container__users{
@@ -33,7 +35,6 @@
     }
 
     .container__post{
-        margin-left: 100px;
         width: 50%;
     }
 
@@ -44,25 +45,11 @@
     
     }
 
-    .container__individual{
-        width: 500px;
-        height: max-content;
+    .aside__aside{
+        max-width: 100%;
     }
 
-    .container__identificador{
-        position: relative;
-        left: 100px;
-        width: 30%;
-
-    }
-
-    .post__description{
-        width: 600px;
-        height: 252px;
-
-    }
-
-    .container__identificador-post{
-        margin-top: 20px;
+    .form__wrapper{
+        width: 50%;
     }
 }
